@@ -7,9 +7,11 @@
     - [One-time setup](#one-time-setup)
     - [Run examples](#run-examples)
 1. [Structure of the repo](#structure-of-the-repo)
+1. [Tasks](#tasks)
+    - [Run linting](#run-linting)
 1. [References and further resources](#references-and-further-resources)
 
-<div align="right"><a href="#contents">Back to top</a></div>
+<div align="right"><a href="#contents">Back to Contents</a></div>
 
 ## Important notes
 Following the instructions documented in this project to install and use the code is *at own risk*. See the project's [LICENSE](LICENSE).
@@ -40,7 +42,7 @@ Each time you want to start it up:
 - VSCode: Should recognise the correct conda environment when you open the project.
 - Jupyter Notebooks:
     ```
-    conda activate shap_example_env
+    conda activate dash_trials_env
     start jupyter notebook
     ```
 
@@ -52,6 +54,15 @@ Each time you want to start it up:
 - `environment.yml`: Specification of environment so it can be reproduced.
 - `.vscode/`: IDE settings, e.g. for common development tasks.
 - `LICENSE`: Terms of use.
+
+<p align="right"><a href="#contents">Back to Contents</a></p>
+
+## Tasks
+### Run linting
+To check code formatting using `pylint`.
+```
+pylint datacamp_tutorial/
+```
 
 <p align="right"><a href="#contents">Back to Contents</a></p>
 
@@ -67,4 +78,4 @@ Each time you want to start it up:
     - Example here: <https://stackoverflow.com/a/63729413>
     - Also here: <https://medium.com/plotly/introducing-jupyterdash-811f1f57c02e>
 
-<div align="right"><a href="#contents">Back to top</a></div>
+<div align="right"><a href="#contents">Back to Contents</a></div>

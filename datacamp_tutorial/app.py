@@ -1,5 +1,5 @@
 r"""
-Adapted from 'Dash for Beginners' article on DataCamp here: 
+Adapted from 'Dash for Beginners' article on DataCamp here:
 <https://www.datacamp.com/community/tutorials/learn-build-dash-python>
 
 To run the app:
