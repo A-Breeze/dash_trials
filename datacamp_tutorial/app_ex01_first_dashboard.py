@@ -1,23 +1,11 @@
-r"""
-Adapted from 'Dash for Beginners' article on DataCamp here:
-<https://www.datacamp.com/community/tutorials/learn-build-dash-python>
-
-To run the app:
-1. Open a Terminal in the project's root directory:
-    ```
-    conda activate dash_trials_env
-    python datacamp_tutorial\app.py
-    ```
-    - Add `start` at the beginning to open it in the new Command Prompt
-2. Then go to the IP address, e.g.: <http://127.0.0.1:8050/>
-3. Stop it by `Ctrl + C` in the Terminal
-
+"""
+Example 01: First attempt at a dashboard using Dash
 """
 
 #########
 # Setup #
 #########
-# Import external packages
+# Import external modules
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
