@@ -8,6 +8,7 @@
     - [Run examples](#run-examples)
 1. [Structure of the repo](#structure-of-the-repo)
 1. [Tasks](#tasks)
+    - [Manually download data](#manually-download-data)
     - [Run linting](#run-linting)
 1. [References and further resources](#references-and-further-resources)
 
@@ -50,14 +51,29 @@ Each time you want to start it up:
 
 ## Structure of the repo
 - `README.md`: Main introduction to the project.
+- `data/`: No data files are committed to the repo. See `data\README.md` for instructions to manually download the data files from online sources that are used in some of the examples.
 - `datacamp_tutorial/`: Working through the 'Dash for Beginners' article on DataCamp (see below for link).
 - `environment.yml`: Specification of environment so it can be reproduced.
+- `proj_config.py`: Central store of variables that can be referenced throughout the project.
 - `.vscode/`: IDE settings, e.g. for common development tasks.
 - `LICENSE`: Terms of use.
 
 <p align="right"><a href="#contents">Back to Contents</a></p>
 
 ## Tasks
+### Manually download data
+No data files are committed to the repo. Some examples use external data from online sources. See `data\README.md` for details, where to get the data, and where to save it in the repo.
+
+### Run an app
+1. Open a Terminal in the project's root directory:
+    ```
+    conda activate dash_trials_env
+    start python datacamp_tutorial\app_ex01_first_dashboard.py
+    ```
+    - Adding `start` at the beginning opens it in a separate Command Prompt
+2. Then go to the IP address, e.g.: <http://127.0.0.1:8050/>
+3. Stop it by `Ctrl + C` in the Terminal
+
 ### Run linting
 To check code formatting using `pylint`.
 ```
