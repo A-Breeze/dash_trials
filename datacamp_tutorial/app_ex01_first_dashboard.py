@@ -1,6 +1,4 @@
-"""
-Example 01: First attempt at a dashboard using Dash
-"""
+"""Example 01: First attempt at a dashboard using Dash"""
 
 #########
 # Setup #

@@ -86,7 +86,7 @@ print(f'dash_core_components version:\t{dcc.__version__}')
 
 ```python
 # Configuration variables
-data_URL = (
+DATA_URL = (
     'https://gist.githubusercontent.com/chriddyp/'
     '5d1ea79569ed194d432e56108a04d188/raw/'
     'a9f9e8076b837d541398e999dcbac2b2826a81f8/'
@@ -98,7 +98,7 @@ if data_filepath.is_file():
 else:
     print(
         "Warning: Data file not yet available in that location\n"
-        f"Please download it manually from here:\n{data_URL}"
+        f"Please download it manually from here:\n{DATA_URL}"
     )
 ```
 

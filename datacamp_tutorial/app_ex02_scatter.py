@@ -1,6 +1,4 @@
-"""
-Example 02: Dashboard with a scatter plot
-"""
+"""Example 02: Dashboard with a scatter plot"""
 
 #########
 # Setup #
@@ -21,13 +19,13 @@ from pyprojroot import here
 root_dir_path = here()
 if not sys.path[0] == str(root_dir_path):
     sys.path.insert(0, str(root_dir_path))
-import proj_config   # pylint: disable=import-error
+import proj_config   # pylint: disable=import-error, wrong-import-position
 
 # Initialise app object
 app = dash.Dash()
 
 # Configuration variables
-data_URL = (
+DATA_URL = (
     'https://gist.githubusercontent.com/chriddyp/'
     '5d1ea79569ed194d432e56108a04d188/raw/'
     'a9f9e8076b837d541398e999dcbac2b2826a81f8/'
@@ -40,7 +38,7 @@ else:
     raise FileNotFoundError(
         "\n\tWarning: Data file not yet available in that location."
         "\n\tPlease download it manually from here..."
-        f"\n\t{data_URL}"
+        f"\n\t{DATA_URL}"
         "\n\t...and save it here:"
         f"\n\t{data_filepath}"
     )
