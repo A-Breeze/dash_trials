@@ -49,8 +49,11 @@ import plotly
 import plotly.graph_objs as go
 import dash
 import dash_renderer
+# Out-of-the-box dash packages
 import dash_core_components as dcc
 import dash_html_components as html
+# Dash extension packages
+import dash_auth
 
 # Import project modules
 # Allow modules to be imported relative to the project root directory
@@ -83,6 +86,8 @@ assert html.__version__ == '1.0.3'
 print(f'dash_renderer version:\t{html.__version__}')
 assert dcc.__version__ == '1.10.2'
 print(f'dash_core_components version:\t{dcc.__version__}')
+assert dash_auth.__version__ == '1.4.1'
+print(f'dash_auth version:\t{dash_auth.__version__}')
 ```
 
 ```python

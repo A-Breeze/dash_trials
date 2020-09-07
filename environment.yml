@@ -22,3 +22,5 @@ dependencies:
   - dash==1.14.0
   # - jupyter-dash  # TODO: Try this out
   # - dash-bootstrap-components  # TODO: Try this out
+  - pip:
+    - dash-auth==1.4.1
