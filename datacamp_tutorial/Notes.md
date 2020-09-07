@@ -184,8 +184,9 @@ plotly.io.show(figure)
 # Calling help
 
 ```python
-# Example
+# Examples
 # help(dcc.Input)
+help(dash.Dash.callback)
 ```
 
 <div align="right"><a href="#Contents">Back to Contents</a></div>
