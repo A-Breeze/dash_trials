@@ -6,6 +6,7 @@ Not part of the tutorial, just recording observations as I work through it.
 1. [Tutorial notes](#Tutorial-notes)
 1. [Setup](#Setup)
 1. [Recreate plotly plots](#Recreate-plotly-plots): Example 1, Example 2
+1. [Calling help](#Calling-help)
 
 
 <div align="right"><a href="#Contents">Back to Contents</a></div>
@@ -178,8 +179,13 @@ figure = {
 plotly.io.show(figure)
 ```
 
-```python
+<div align="right"><a href="#Contents">Back to Contents</a></div>
 
+# Calling help
+
+```python
+# Example
+# help(dcc.Input)
 ```
 
-<div align="right"><a href="#contents">Back to top</a></div>
+<div align="right"><a href="#Contents">Back to Contents</a></div>
