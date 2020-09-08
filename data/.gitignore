@@ -1,0 +1,3 @@
+# Addition patterns to ignore in this folder
+# Ignore all source data files
+*.csv
